@@ -1,0 +1,18 @@
+using UnityEngine;
+
+
+[DisallowMultipleComponent]
+    #ROOTNAMESPACEBEGIN#
+public sealed class #SCRIPTNAME# : MonoBehaviour
+{
+    
+    
+    //Settings
+    [Header("Settings")]
+    
+    [SerializeField, Tooltip("Tooltip")]
+    private bool myBool;
+    
+    
+}
+#ROOTNAMESPACEEND#
